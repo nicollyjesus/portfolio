@@ -19,7 +19,7 @@
     <!-- META TAGS ESSENCIAIS -->
     <meta name="author" content="Nicolly Jesus">
     <meta name="description"
-        content="Portfólio de Nicolly jesus, desenvolvedora Full Stack especializado em criar experiências digitais incríveis. Conheça meus projetos e entre em contato.">
+        content="Portfólio de Nicolly Jesus, desenvolvedora Full Stack especializado em criar experiências digitais incríveis. Conheça meus projetos e entre em contato.">
     <meta name="robots" content="index, follow">
 
     <!-- FAVICON -->
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css"> 
 
     <!-- TÍTULO DA PÁGINA -->
-    <title>Portfólio da Nicolly</title>
+    <title>Portfólio do Nicolly</title>
     
 </head>
 
@@ -83,39 +83,6 @@
         <!-- #ABOUT -->
         <section id="about" class="about_container">
 
-            <!-- FOTO DO PERFIL -->
-            <figure class="about_image">
-                <img
-                    src="./assets/img/avatar_dev_woman.svg"
-                    alt="Foto da pessoa desenvolvedora."
-                >
-            </figure>
-
-            <!-- CONTEÚDO DO PERFIL -->
-            <article class="about_content">
-
-                <h2>Sobre mim</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis.  Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Per aumento de cachacis, eu reclamis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Nulla id gravida magna, ut semper sapien.</p>
-                <p>Mussum Ipsum, cacilds vidis litro abertis.  Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Per aumento de cachacis, eu reclamis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Nulla id gravida magna, ut semper sapien.</p>
-
-                <div class="about_stats">
-                    <a href="#" target="_blank" class="botao">Ver GitHub</a>
-                    
-                    <!-- Faltou esta div para alinhar os cards -->
-                    <div class="stats-wrapper">
-                        <div class="stat-item">
-                            <p class="stat-number">100</p>
-                            <p class="stat-label">Seguidores</p>
-                        </div>
-                        <div class="stat-item">
-                            <p class="stat-number">50</p>
-                            <p class="stat-label">Repositórios</p>
-                        </div>
-                    </div>
-
-                </div>
-            </article>
-
         </section>
 
         <!-- #CONTACT -->
@@ -126,37 +93,40 @@
                 <h4>Entre em Contato</h4>
                 <p>Sinta-se à vontade para entrar em contato comigo!</p>
                 <div class="social_container">
-                    <a href="#" target="_blank" class="social_icon">
+                    <a href="https://www.linkedin.com/in/nicolly-jesus/" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/linkedin.svg"
                             alt="https://www.linkedin.com/in/nicolly-jesus/"
                         >
                     </a>
-                    <a href="#" target="_blank" class="social_icon">
+                    <a href="https://github.com/nicollyjesus" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/github.svg"
                             alt="https://github.com/nicollyjesus"
                         >
                     </a>
-                    <a href="#" target="_blank" class="social_icon">
+                    <a href="https://www.instagram.com/iam_nixx_/" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/instagram.svg"
                             alt="https://www.instagram.com/iam_nixx_/"
                         >
                     </a>
-                    </a>
                 </div>
             </article>
 
             <!-- FORMULÁRIO -->
-            <form id="formulario">
+            <form action="https://formsubmit.co/7065d88cfa92a310a1da3b7a5effb0c9" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
+                
                 <label for="nome">Nome</label>
                 <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
                 <span id="txtNome"></span>
 
                 <label for="email">E-mail</label>
                 <input id="email" name="email" type="text" placeholder="Digite o seu e-mail">
-                <span id="txtemail"></span>
+                <span id="txtEmail"></span>
 
                 <label for="assunto">Assunto</label>
                 <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem">
@@ -175,6 +145,10 @@
     <footer>
         Feito com ❤️ por Nicolly Jesus - 2025
     </footer>
+
+    <!-- Script JavaScript -->
+    <script src="./assets/js/scripts.js"></script>
+
 </body>
 
 </html>
